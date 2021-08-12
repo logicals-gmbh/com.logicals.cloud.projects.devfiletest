@@ -1,0 +1,183 @@
+{
+  "codeMapping": [
+    {
+      "c": {
+        "b": 19,
+        "e": 71
+      },
+      "st": {
+        "b": 26,
+        "e": 39
+      },
+      "l": 0,
+      "sk": 10
+    },
+    {
+      "c": {
+        "b": 21,
+        "e": 27
+      },
+      "st": {
+        "b": 27,
+        "e": 27
+      },
+      "l": 1,
+      "sk": 4
+    },
+    {
+      "c": {
+        "b": 28,
+        "e": 66
+      },
+      "st": {
+        "b": 28,
+        "e": 36
+      },
+      "l": 1,
+      "sk": 10
+    },
+    {
+      "c": {
+        "b": 30,
+        "e": 37
+      },
+      "st": {
+        "b": 29,
+        "e": 29
+      },
+      "l": 2,
+      "sk": 14
+    },
+    {
+      "c": {
+        "b": 38,
+        "e": 65
+      },
+      "st": {
+        "b": 31,
+        "e": 35
+      },
+      "l": 2,
+      "sk": 10
+    },
+    {
+      "c": {
+        "b": 43,
+        "e": 63
+      },
+      "st": {
+        "b": 32,
+        "e": 34
+      },
+      "l": 3,
+      "sk": 9
+    },
+    {
+      "c": {
+        "b": 46,
+        "e": 60
+      },
+      "st": {
+        "b": 33,
+        "e": 33
+      },
+      "l": 4,
+      "sk": 14
+    },
+    {
+      "c": {
+        "b": 68,
+        "e": 69
+      },
+      "st": {
+        "b": 37,
+        "e": 37
+      },
+      "l": 1,
+      "sk": 11
+    },
+    {
+      "c": {
+        "b": 70,
+        "e": 70
+      },
+      "st": {
+        "b": 38,
+        "e": 38
+      },
+      "l": 1,
+      "sk": 14
+    },
+    {
+      "c": {
+        "b": 72,
+        "e": 72
+      },
+      "st": {
+        "b": 41,
+        "e": 41
+      },
+      "l": 0,
+      "sk": 17
+    }
+  ],
+  "nameMapping": {
+    "lcfu___I2C_PCF8574_READ": {
+      "v": "",
+      "t": "I2C_PCF8574_read",
+      "k": "POU"
+    },
+    "LC_this": {
+      "v": "",
+      "t": "I2C_PCF8574_read",
+      "k": "THIS"
+    },
+    "LC_VD_ADDRESS": {
+      "v": "address",
+      "t": "INT",
+      "k": "VAR_INPUT"
+    },
+    "LC_VD_DATA": {
+      "v": "data",
+      "t": "ARRAY[0..63] OF BYTE",
+      "k": "VAR"
+    },
+    "LC_VD_I2C_PCF8574_READ": {
+      "v": "I2C_PCF8574_read",
+      "t": "ARRAY[0..7] OF BOOL",
+      "k": "VAR_OUTPUT"
+    },
+    "LC_VD_NUM_BYTES": {
+      "v": "num_bytes",
+      "t": "DINT",
+      "k": "VAR"
+    },
+    "LC_VD_I2C_SLAVE": {
+      "v": "I2C_SLAVE",
+      "t": "DINT",
+      "k": "VAR"
+    },
+    "LC_VD_FD": {
+      "v": "fd",
+      "t": "DINT",
+      "k": "VAR_INPUT"
+    },
+    "LC_VD_CNT": {
+      "v": "cnt",
+      "t": "INT",
+      "k": "VAR"
+    },
+    "LC_VD_EN": {
+      "v": "EN",
+      "t": "BOOL",
+      "k": "VAR_INPUT"
+    },
+    "LC_VD_ENO": {
+      "v": "ENO",
+      "t": "BOOL",
+      "k": "VAR_OUTPUT"
+    }
+  },
+  "stCodeFile": "libref:/Counter/com.logicals.lc3.library.system__2.0.19/I2C/I2C_PCF8574_read.iecst",
+  "cCodeFile": "src-gen/lcfu___i2c_pcf8574_read.c"
+}

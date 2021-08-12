@@ -1,0 +1,96 @@
+{
+  "codeMapping": [
+    {
+      "c": {
+        "b": 13,
+        "e": 19
+      },
+      "st": {
+        "b": 13,
+        "e": -1
+      },
+      "l": 0,
+      "sk": 260
+    },
+    {
+      "c": {
+        "b": 20,
+        "e": 27
+      },
+      "st": {
+        "b": 6,
+        "e": -1
+      },
+      "l": 0,
+      "sk": 260
+    },
+    {
+      "c": {
+        "b": 25,
+        "e": 25
+      },
+      "st": {
+        "b": 11,
+        "e": -1
+      },
+      "l": 1,
+      "sk": 280
+    },
+    {
+      "c": {
+        "b": 29,
+        "e": 29
+      },
+      "st": {
+        "b": 0,
+        "e": 0
+      },
+      "l": 0,
+      "sk": 273
+    }
+  ],
+  "nameMapping": {
+    "LC_this": {
+      "v": "",
+      "t": "Counter",
+      "k": "THIS"
+    },
+    "LC_VD___13_SEL": {
+      "v": "__13_SEL",
+      "t": "INT",
+      "k": "VAR"
+    },
+    "LC_VD_UP": {
+      "v": "up",
+      "t": "BOOL",
+      "k": "VAR"
+    },
+    "LC_VD_COUNT": {
+      "v": "count",
+      "t": "INT",
+      "k": "VAR"
+    },
+    "LC_VD___6_ADD": {
+      "v": "__6_ADD",
+      "t": "INT",
+      "k": "VAR"
+    },
+    "lcpu___COUNTER": {
+      "v": "",
+      "t": "Counter",
+      "k": "POU"
+    },
+    "LC_VD_EN": {
+      "v": "EN",
+      "t": "BOOL",
+      "k": "VAR_INPUT"
+    },
+    "LC_VD_ENO": {
+      "v": "ENO",
+      "t": "BOOL",
+      "k": "VAR_OUTPUT"
+    }
+  },
+  "stCodeFile": "src/Counter.iecfbd",
+  "cCodeFile": "src-gen/lcpu___counter.c"
+}

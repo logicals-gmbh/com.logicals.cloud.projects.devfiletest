@@ -1,0 +1,46 @@
+PROGRAM Counter
+  VAR
+    up : BOOL;
+    count : INT;
+  END_VAR
+
+  (*
+
+    // Network 1:
+    SEL(G := up, IN0 := -1, IN1 := 1, SEL => @C(13).SEL);
+    ADD(IN1 := count, IN2 := @C(13).SEL, ADD => count);
+
+  *)
+
+  @VF(1) : @E(up), @R(90.0, 170.0, 90.0, 19.0), BOOL;
+  @VF(2) : @E(count), @R(450.0, 150.0, 80.0, 19.0), INT;
+  @C(6) : @F(ADD), @R(560.0, 150.0, 40.0, 38.0), INT, @I(@N(IN1), @L(9.5)), @I(@N(IN2), @L(29.5)), @O(@N(ADD), @R(9.5));
+  @VF(11) : @E(count), @R(640.0, 150.0, 80.0, 19.0), INT;
+  @C(13) : @F(SEL), @R(320.0, 170.0, 120.0, 58.0), INT, @I(@N(G), @L(9.5)), @I(@N(IN0), @L(29.5)), @I(@N(IN1), @L(49.5)), @O(@N(SEL), @R(9.5));
+  @VF(5) : @E(-1), @R(90.0, 190.0, 90.0, 19.0), INT;
+  @VF(8) : @E(1), @R(90.0, 210.0, 90.0, 19.0), INT;
+
+  @G(9) :
+     @L(@VF(2).o, @C(6).IN1)
+    ;
+  @G(12) :
+     @L(@C(6).ADD, @VF(11).i)
+    ;
+  @G(4) :
+     @L(@VF(1).o, @C(13).G)
+    ;
+  @G(7) :
+     @L(@VF(5).o, @C(13).IN0)
+    ;
+  @G(14) :
+     @L(@VF(8).o, @C(13).IN1)
+    ;
+  @G(3) :
+     @L(@C(13).SEL, @C(6).IN2)
+    ;
+
+  @CF(16) : @R(90.0, 60.0, 500.0, 48.0), @T("This sample contains a program to count up or down.$N  If $'up$' = $'TRUE$', counter counts up.$N  $'count$' is incremented/decremented by $'1$' for each cycle.");
+
+  @OLT(10) : @R(690.0, 120.0, 50.0, 19.0), @S(@VF(11).o);
+  @OLT(15) : @R(150.0, 130.0, 50.0, 19.0), @S(@VF(1).o);
+END_PROGRAM

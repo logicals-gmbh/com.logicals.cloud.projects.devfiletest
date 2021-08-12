@@ -1,0 +1,202 @@
+{
+  "codeMapping": [
+    {
+      "c": {
+        "b": 16,
+        "e": 16
+      },
+      "st": {
+        "b": 24,
+        "e": 24
+      },
+      "l": 0,
+      "sk": 7
+    },
+    {
+      "c": {
+        "b": 17,
+        "e": 57
+      },
+      "st": {
+        "b": 26,
+        "e": 38
+      },
+      "l": 0,
+      "sk": 10
+    },
+    {
+      "c": {
+        "b": 22,
+        "e": 28
+      },
+      "st": {
+        "b": 27,
+        "e": 27
+      },
+      "l": 1,
+      "sk": 4
+    },
+    {
+      "c": {
+        "b": 29,
+        "e": 51
+      },
+      "st": {
+        "b": 28,
+        "e": 35
+      },
+      "l": 1,
+      "sk": 10
+    },
+    {
+      "c": {
+        "b": 31,
+        "e": 31
+      },
+      "st": {
+        "b": 29,
+        "e": 29
+      },
+      "l": 2,
+      "sk": 14
+    },
+    {
+      "c": {
+        "b": 32,
+        "e": 38
+      },
+      "st": {
+        "b": 30,
+        "e": 30
+      },
+      "l": 2,
+      "sk": 14
+    },
+    {
+      "c": {
+        "b": 39,
+        "e": 46
+      },
+      "st": {
+        "b": 31,
+        "e": 31
+      },
+      "l": 2,
+      "sk": 14
+    },
+    {
+      "c": {
+        "b": 47,
+        "e": 50
+      },
+      "st": {
+        "b": 32,
+        "e": 34
+      },
+      "l": 2,
+      "sk": 10
+    },
+    {
+      "c": {
+        "b": 49,
+        "e": 49
+      },
+      "st": {
+        "b": 33,
+        "e": 33
+      },
+      "l": 3,
+      "sk": 14
+    },
+    {
+      "c": {
+        "b": 53,
+        "e": 54
+      },
+      "st": {
+        "b": 36,
+        "e": 36
+      },
+      "l": 1,
+      "sk": 11
+    },
+    {
+      "c": {
+        "b": 55,
+        "e": 55
+      },
+      "st": {
+        "b": 37,
+        "e": 37
+      },
+      "l": 1,
+      "sk": 14
+    },
+    {
+      "c": {
+        "b": 58,
+        "e": 58
+      },
+      "st": {
+        "b": 40,
+        "e": 40
+      },
+      "l": 0,
+      "sk": 17
+    }
+  ],
+  "nameMapping": {
+    "LC_this": {
+      "v": "",
+      "t": "I2C_PCF8591_write",
+      "k": "THIS"
+    },
+    "LC_VD_ADDRESS": {
+      "v": "address",
+      "t": "INT",
+      "k": "VAR_INPUT"
+    },
+    "LC_VD_DATA": {
+      "v": "data",
+      "t": "ARRAY[0..63] OF BYTE",
+      "k": "VAR"
+    },
+    "LC_VD_VALUE": {
+      "v": "value",
+      "t": "UINT",
+      "k": "VAR_INPUT"
+    },
+    "lcfu___I2C_PCF8591_WRITE": {
+      "v": "",
+      "t": "I2C_PCF8591_write",
+      "k": "POU"
+    },
+    "LC_VD_NUM_BYTES": {
+      "v": "num_bytes",
+      "t": "DINT",
+      "k": "VAR"
+    },
+    "LC_VD_I2C_SLAVE": {
+      "v": "I2C_SLAVE",
+      "t": "DINT",
+      "k": "VAR"
+    },
+    "LC_VD_FD": {
+      "v": "fd",
+      "t": "DINT",
+      "k": "VAR_INPUT"
+    },
+    "LC_VD_EN": {
+      "v": "EN",
+      "t": "BOOL",
+      "k": "VAR_INPUT"
+    },
+    "LC_VD_ENO": {
+      "v": "ENO",
+      "t": "BOOL",
+      "k": "VAR_OUTPUT"
+    }
+  },
+  "stCodeFile": "libref:/Counter/com.logicals.lc3.library.system__2.0.19/I2C/I2C_PCF8591_write.iecst",
+  "cCodeFile": "src-gen/lcfu___i2c_pcf8591_write.c"
+}
